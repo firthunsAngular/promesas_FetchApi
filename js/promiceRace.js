@@ -29,7 +29,7 @@ let sumarRapido = (numero) => {
 
 }
 
-
+// da como respùesta el primero que se resuelva
 Promise.race( [ sumarLento(5), sumarRapido(10) ] )
         .then( respuesta => {
             console.log(respuesta);

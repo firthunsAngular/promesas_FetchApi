@@ -30,7 +30,11 @@ let sumarRapido = (numero) => {
 }
 
 
-let cosas = [ sumarLento(5), sumarRapido(10), true, 'hola mundo', retornaTrue() ];
+let cosas = [ sumarLento(5),
+              sumarRapido(10),
+              true,
+              'hola mundo',
+              retornaTrue() ];
 
 
 Promise.all( cosas )
